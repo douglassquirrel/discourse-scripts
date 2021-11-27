@@ -13,7 +13,7 @@ ADMIN_USER=`./get_config_var.sh ADMIN_USER`
 NAME=$1
 USERNAME=$2
 EMAIL="$USERNAME-temp@douglassquirrel.com"
-PASSWORD=$USERNAME-123
+PASSWORD=$USERNAME-123456
 
 echo "Creating user $USERNAME"
 
